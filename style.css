@@ -65,5 +65,27 @@ h1{
 .copa-amerika{
   margin-top: 50px;
 }
+.section-second{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:25px;
+  
+  
+  
+}
+.section-two{
+  margin-left: 130px;
+  margin-top: 80px;
+  background-color:#FFFFFF;
 
+  
+}
+.players img{
+  width:400px;
+ 
 
+}
+.players{
+  box-shadow: 50px 50px 50px #FFFFFF;
+  padding: 50px;
+}
