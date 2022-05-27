@@ -145,7 +145,8 @@ padding-bottom: 30px;
   text-align: center;
 }
 /*-------------------------------------- media query ------------------------ */
-/*------------------------------------ mobile device ------------------------- */
+/*------------------------------------ ------
+--------------------------------------------mobile device ------------------------- */
 @media only screen and ( max-width:600px){
   .section-first{
     grid-template-columns: repeat(1,1fr);
