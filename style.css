@@ -5,9 +5,14 @@ body{
   font-family: 'DM Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100vh;
 }
+/* *{
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+} */
 .section-first{
   background-color:#2D25A0;
   width: 100%;
@@ -76,102 +81,40 @@ h1{
 .copa-amerika{
   margin-top: 50px;
 }
-.section-second{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap:50px;
-  margin: 100px;
+[class ^= "block-"]{
+  display: flex;
+  flex-direction:row;
+  /* flex-grow: calc(3 ,1fr); */
+  /* flex-grow: 1; */
+  /* flex-basis: calc(100% /3); */
+  gap:10vh;
+ margin: 80px;
+
+}
+[class ^="box-"]{
+background-color:#d1d1d1d1;
   
 }
 
-.players img{
-  width:440px;
- padding-left: 25px;
- padding-top: 25px;
+ 
+  
+ 
+ 
 
-}
-.players{
- padding: 2px;
- background-color:#FFFFFF;
+.pic-box img{
+  width: 92%;
+  padding-top: 1vw;
+  padding-left: 1vw;
   
 }
-.paragraph-tag{
-  width: 80%;
-  padding-left: 50px;
-  font-size: 20px;
-}
-.heading{
-  color: #0A0826;
-  font-weight:2000px;
-  font-size: 70px;
-    padding-right: 400px;
-}
-#color-id{
-padding-left: 130px;
-width: 50%;
-font-size: 20px;
-padding-bottom: 30px;
-
-}
-.color{
-  color: #6C6C6C;
-}
-.section-three{
-  margin-top: 150px;
-}
-.footer{
-  text-align: center;
-}
-.icon{
-  color: gray;
-  text-align: center;
+.pic-box{
  
 }
-.fa-instagram{
-  border: 20px solid lightgray;
-  border-radius: 3px 26px 3px 26px;
+.text-box{
+  width: 80%;
+  padding-left: 1vw;
+  padding-bottom: 1vw;
 }
-.fa-dribbble{
-  border: 20px solid lightgray;
-    border-radius: 3px 26px 3px 26px;
-}
-.fa-twitter{
-  border: 20px solid lightgray;
-    border-radius: 3px 26px 3px 26px;
-}
-.fa-youtube{
-  border: 20px solid lightgray;
-    border-radius: 3px 26px 3px 26px;
-}
-.copyright{
-  text-align: center;
-}
-/*-------------------------------------- media query ------------------------ */
-/*------------------------------------ ------
---------------------------------------------mobile device ------------------------- */
-@media only screen and ( max-width:600px){
-  .section-first{
-    grid-template-columns: repeat(1,1fr);
-    display: none;
-    background-color:aqua;
-  }
-  footer{
-    display: none;
-    background-color: chartreuse;
-  }
-  .section-one{
-    grid-template-columns: repeat(1, 1fr);
-      display: none;
-      background-color: aqua;
-  }
-.section-second{
-  grid-template-columns: repeat(1, 1fr);
-    display: none;
-    background-color: aqua;
-}
-.section-three{
-  grid-template-columns: repeat(1, 1fr);
-    display: none;
-    background-color: aqua;
-}
+h2{
+  padding-left: 1vw;
 }
