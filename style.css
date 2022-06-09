@@ -72,7 +72,7 @@ h1{
   padding-left: 24px;
   padding-bottom: 20px;
   padding-right: 25px;
-  margin-top: 464px;
+  margin-top: 500px;
   margin-bottom: 169px;
   margin-left: 130px;
   font-size: 16px;
@@ -92,13 +92,21 @@ h1{
 
 }
 [class ^="box-"]{
-background-color:#d1d1d1d1;
+background-color:#FFE4C4;
   
 }
 
- 
-  
- 
+ .head-tag{
+   color: black;
+
+ }
+p{
+  color: gray;
+}
+ .paragraph-tag{
+  width: 50%;
+    padding-left: 130px;
+ }
  
 
 .pic-box img{
@@ -118,3 +126,43 @@ background-color:#d1d1d1d1;
 h2{
   padding-left: 1vw;
 }
+footer{
+  text-align: center;
+  margin-top:50px ;
+ 
+}
+.copyright{
+  color: black;
+}
+.logo img{
+ width: 50%;
+}
+.fa-instagram{
+  color: gray;
+  border:  10px solid rgb(245, 227, 227);
+  border-radius: 100%;
+  background-size: 100%;
+  background-position: center;
+}
+.fa-dribbble{
+  color: gray;
+    border: 10px solid rgb(245, 227, 227);
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+.fa-twitter{
+  color: gray;
+    border: 10px solid rgb(245, 227, 227);
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+.fa-youtube{
+  color: gray;
+    border: 10px solid rgb(245, 227, 227);
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+
