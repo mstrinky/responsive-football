@@ -165,4 +165,32 @@ footer{
     background-size: 100%;
     background-position: center;
 }
+@media  (max-width:480px) {
+  .section-first{
+ display:flex;
+ 
+ 
+    
+  }
+  [class ^="block-"]{
+    display: flex;
+    flex-direction: column;
+  }
+  .section-one{
+    display: flex;
+    flex-direction: column;
+  }
+  .head-tag{
+   font-size:30px;
+   padding-right:1000px ;
+}
 
+
+.copa-amerika{
+  text-align: center;
+}
+.match img{
+width: 90%;
+height: 90%;
+}
+}
